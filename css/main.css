@@ -1,0 +1,43 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+.headerfirst{
+	position: fixed;
+	width: 100%;
+	height: 45px;
+	background-color:#AE4D7B;
+}
+.headersecond{
+	display: inline-block;
+	position: fixed;
+	margin-top: 45px;
+	width: 100%;
+	height:45px;
+	background: #CD5A91;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	font-family: 'arial';
+	font-weight: bold;
+}
+body{
+	background-color:#CF94B0;
+	width: 120%;
+	height: 100%;
+}
+
+
+textarea{
+	margin-top:100px;
+	
+	background-color: #CD5A91;
+	/*con over y resize agrandamos el text area para que no se desborde el texto*/
+	resize: none;
+	overflow: hidden;
+	padding: 20px;
+	margin-left: 20px;
+}
