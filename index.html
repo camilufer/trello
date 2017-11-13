@@ -11,25 +11,52 @@
 
     <header> 
        <div class="headerfirst">
-	      <ul>
-	      <span class="icon-trello"></span>
-		  <li> <a href="#">boards</a></li>
-	      </ul>
+       <h1>Boards</h1>
+<textarea id="ta1" cols="30" rows="10"></textarea>
+<span class="icon-search"></span>
+       <span class="icon-trello"></span>
+       <span class="icon-plus"></span>
+       <span class="icon-info"></span>
+      <span class="icon-notifications_none"></span>
+       <span><img src="img/header-logo.png" alt=""></span>   
        </div>
 
        <div class="headersecond">
+       <h2>Welcome Board</h2>
+       <span class="icon-star"></span>
+       <ul>
+       	<li>
+       		<p>Personal</p>
+       	</li>
+       </ul>
+       <span class="icon-lock"></span>
+      
+      <span class="icon-dots-three-horizontal"></span>
+
        </div>
     </header>
 
-<form>
-	<textarea name="mensaje" id="msj" placeholder="Add a card..." cols="30" rows="1"></textarea>
+<section>
+			
+<div id="newcont"></div>
 
-</form>
+<div id="cont" class="box">
 	
+	<input type="text" id="list" placeholder="Add a card...">
 
-	<div id="contenedor"></div>
+	<div id="btns" class="show">
+
+	<button id="save">Add</button>
+	<button id="cancel"><span class="icon-notifications_none"></span></button>
+
+	</div>
+
+</div>
+</section>
 
 
+<input type="text">
+	
 
 
 
@@ -37,3 +64,6 @@
 <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
+
+
+		

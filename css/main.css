@@ -1,6 +1,7 @@
 *{
 	margin:0px;
 	padding: 0px;
+	font-family: arial;
 }
 .headerfirst{
 	position: fixed;
@@ -17,27 +18,228 @@
 	background: #CD5A91;
 }
 
-a{
+input{
+	display: block;
 	text-decoration: none;
-	color: white;
+	color: #7A7B7C;
 	font-size: 14px;
 	font-family: 'arial';
-	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 150px;
 }
+
+
 body{
 	background-color:#CF94B0;
 	width: 120%;
 	height: 100%;
 }
 
+.addcard{
+	height: 30px;
+	width: 250px;
+	background-color: #CDD2D4;
+}
+
+
 
 textarea{
-	margin-top:100px;
-	
-	background-color: #CD5A91;
+	border-radius: 4px;
+	margin-top:10px;
+	background-color: #CDD2D4;
 	/*con over y resize agrandamos el text area para que no se desborde el texto*/
 	resize: none;
 	overflow: hidden;
-	padding: 20px;
-	margin-left: 20px;
+	padding: 2px;
+	margin-left: 10px;
+	height: 20px;
+	width: 210px;
+	border-color: transparent;
 }
+
+img{
+	position: relative;
+	margin-left: 610px;
+	margin-top: -22px;
+	line-height: 30px;
+	display: block;
+	opacity: 0.5;
+}
+
+img:hover{
+	opacity: 0.8;
+}
+
+.cont{
+	position: absolute;
+	height: 80px;
+	width: 270px;
+	background-color: #CDD2D4;
+	margin-left: 20px;
+	margin-top: 90px;
+}
+
+.icon-trello:before {
+  content: "\e908";
+  color: white;
+  font-size: 20px;
+  margin-left:10px;
+  margin-top: -20px;
+ display: inline-block;
+ position: absolute;
+}
+
+h1{
+	font-size: 16px;
+	font-weight: bolder;
+	display: block;
+	color: white;
+	margin-left:40px;
+	margin-top:15px;	
+}
+
+#ta1{
+	display: block;
+    margin-top: -24px;
+    width: 180px;
+    margin-left: 100px;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.icon-search:before {
+  content: "\e902";
+  position: absolute;
+  margin-left:260px;
+  font-size: 25px;
+  margin-top: -24px;
+  color: white;
+  font-weight: bolder;
+}
+
+.icon-plus:before {
+  content: "\e905";
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  margin-left:1150px;
+  margin-top: -24px;
+  background-color: #CF94B0;
+}
+
+.icon-info:before {
+  content: "\e906";
+   position: absolute;
+  color: white;
+  font-size: 25px;
+  margin-left:1180px;
+  margin-top: -24px;
+  background-color: #CF94B0;
+}
+
+.icon-notifications_none:before {
+  content: "\e903";
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  margin-left:1210px;
+  margin-top: -24px;
+  background-color: #00AECC;
+}
+
+h2{
+	color: white;
+	margin-top: 12px;
+	margin-left:10px;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+
+.icon-star:before {
+  content: "\e901";
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  margin-left:175px;
+  margin-top: -17px;
+  font-weight: bolder;
+}
+
+li{
+	list-style: none;
+}
+
+p{
+	position: absolute;
+	margin-left:210px;
+	margin-top: -20px;
+	display: inline-block;
+	font-size: 14px;
+	color: white;
+}
+
+.icon-lock:before {
+  content: "\e904";
+   position: absolute;
+  color: white;
+  font-size: 12px;
+  margin-left:290px;
+  margin-top: -17px;
+  font-weight: bolder;
+}
+
+.icon-dots-three-horizontal:before {
+  content: "\e900";
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  margin-left:1200px;
+  margin-top: -18px;
+}
+.fondo{
+	background-color: #E2E4E6;
+}
+
+#btns{
+	padding: 2px;
+}
+
+.show{
+	display: none;
+}
+
+#save{
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 15px;
+	font-weight: bolder;
+	color: #FFF;
+	padding: 7px;
+	background-color: #519839;
+	border-radius: 2px;
+	border: transparent;
+}
+
+.box{
+	display: inline-block;
+	width: 330px;
+	height: auto;
+	margin-left: 5px;
+	vertical-align: top;
+}
+
+#list{
+	width: 280px;
+	background-color: rgba(0,0,0, 0.15);
+	border:transparent;
+	padding: 8px;
+	border-radius: 2px;
+}
+
+
+
+
+
+
+
